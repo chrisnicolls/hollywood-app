@@ -12,9 +12,7 @@ import {
   CreateMovie,
   CreateActor
 } from "./views/index";
-
-const Temp = () => "Temp Route";
-
+//importing all our files
 class Router extends Component {
   render() {
     return (
@@ -34,5 +32,6 @@ class Router extends Component {
     );
   }
 }
+//creating routes to use
 
 export default Router;

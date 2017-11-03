@@ -1,5 +1,5 @@
 const CREATE_URL = (path = "") => `http://localhost:4040/api/actors/${path}`;
-
+// actors crud file
 export const getById = id => {
   return fetch(CREATE_URL(id))
     .then(response => response.json())
@@ -7,7 +7,7 @@ export const getById = id => {
 };
 
 export const getAll = () => {
-  return fetch(CREATE_URL)
+  return fetch(CREATE_URL())
     .then(response => response.json())
     .catch(err => console.log(err));
 };

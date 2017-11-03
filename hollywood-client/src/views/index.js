@@ -8,6 +8,8 @@ import ListMovies from "./ListMovies";
 import CreateActor from "./CreateActor";
 import CreateMovie from "./CreateMovie";
 
+// importing all components
+
 export {
   Home,
   ListActors,
@@ -19,3 +21,5 @@ export {
   CreateMovie,
   CreateActor
 };
+
+// exporting files to use in Router

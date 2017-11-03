@@ -13,6 +13,7 @@
     "nodemon": "^1.12.1"
   },
   "scripts": {
+    "now-start": "node ./index.js",
     "dev": "nodemon ./index.js"
   }
 }

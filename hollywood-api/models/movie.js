@@ -8,11 +8,14 @@ module.exports = db => {
       .string()
       .enum(["G", "PG", "PG-13", "R", "NR"])
       .required(),
+    releaseDate: type.string().required(),
+    runTime: type.number().required(),
     rottenTomatoes: type
       .number()
       .min(0)
       .max(100)
-      .required()
+      .required(),
+    grossProfit: type.number().required()
   });
   return Movie;
 };

@@ -44,3 +44,54 @@
 2017-11-01T13:18:57.450334000 4548.139438s info: Table ab1cf3ae-6d22-4180-88d2-fc388c0d1630: This server is Raft leader for term 1. Latest log index is 0.
 2017-11-01T13:18:57.954181000 4548.643285s info: Table ab1cf3ae-6d22-4180-88d2-fc388c0d1630: Configuration is changing.
 2017-11-01T13:18:57.954496000 4548.643600s info: Table ab1cf3ae-6d22-4180-88d2-fc388c0d1630: Configuration is changing.
+2017-11-02T08:07:47.198621000 17255.650955s notice: Server got SIGINT from pid 886, uid 501; shutting down...
+2017-11-02T08:07:47.204208000 17255.656539s notice: Shutting down client connections...
+2017-11-02T08:07:47.217496000 17255.669827s notice: All client connections closed.
+2017-11-02T08:07:47.217510000 17255.669840s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2017-11-02T08:07:47.253994000 17255.706325s notice: Storage engine shut down.
+2017-11-02T08:07:50.588990000 0.030580s notice: Running rethinkdb 2.3.6 (CLANG 8.1.0 (clang-802.0.42))...
+2017-11-02T08:07:50.594849000 0.036435s notice: Running on Darwin 16.7.0 x86_64
+2017-11-02T08:07:50.594906000 0.036492s notice: Loading data from directory /Users/chrisnicolls/Documents/DevtreeAcademy/week-8/hollywood-app/hollywood-api/rethinkdb_data
+2017-11-02T08:07:50.631828000 0.073414s info: Automatically using cache size of 5529 MB
+2017-11-02T08:07:50.632377000 0.073963s notice: Listening for intracluster connections on port 29015
+2017-11-02T08:07:50.677609000 0.119195s notice: Listening for client driver connections on port 28015
+2017-11-02T08:07:50.677715000 0.119301s notice: Listening for administrative HTTP connections on port 8080
+2017-11-02T08:07:50.677717000 0.119302s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2017-11-02T08:07:50.677731000 0.119317s notice: Listening on driver addresses: 127.0.0.1, ::1
+2017-11-02T08:07:50.677732000 0.119318s notice: Listening on http addresses: 127.0.0.1, ::1
+2017-11-02T08:07:50.677734000 0.119320s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2017-11-02T08:07:50.677736000 0.119321s notice: Server ready, "chriss_mbp_lan_oej" 840eed4b-9763-47aa-8497-ee8c883f5180
+2017-11-02T08:07:52.405533000 1.847156s info: Table fa034fe6-7a8c-4fbe-94ca-65be4914de0f: Starting a new Raft election for term 2.
+2017-11-02T08:07:52.426437000 1.868060s info: Table fa034fe6-7a8c-4fbe-94ca-65be4914de0f: This server is Raft leader for term 2. Latest log index is 3.
+2017-11-02T08:07:52.436264000 1.877887s info: Table 1f6dedf1-d5ae-4f3a-a3b8-6a302eb044ef: Starting a new Raft election for term 2.
+2017-11-02T08:07:52.457560000 1.899183s info: Table 1f6dedf1-d5ae-4f3a-a3b8-6a302eb044ef: This server is Raft leader for term 2. Latest log index is 3.
+2017-11-02T08:07:52.555989000 1.997612s info: Table ab1cf3ae-6d22-4180-88d2-fc388c0d1630: Starting a new Raft election for term 2.
+2017-11-02T08:07:52.572999000 2.014622s info: Table ab1cf3ae-6d22-4180-88d2-fc388c0d1630: This server is Raft leader for term 2. Latest log index is 5.
+2017-11-02T13:48:46.483714000 16422.777593s notice: Server got SIGINT from pid 886, uid 501; shutting down...
+2017-11-02T13:48:46.483884000 16422.777762s notice: Shutting down client connections...
+2017-11-02T13:48:46.486489000 16422.780368s notice: All client connections closed.
+2017-11-02T13:48:46.486498000 16422.780377s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2017-11-02T13:48:46.495853000 16422.789732s notice: Storage engine shut down.
+2017-11-02T13:48:47.467281000 0.017820s notice: Running rethinkdb 2.3.6 (CLANG 8.1.0 (clang-802.0.42))...
+2017-11-02T13:48:47.471118000 0.021654s notice: Running on Darwin 16.7.0 x86_64
+2017-11-02T13:48:47.471160000 0.021696s notice: Loading data from directory /Users/chrisnicolls/Documents/DevtreeAcademy/week-8/hollywood-app/hollywood-api/rethinkdb_data
+2017-11-02T13:48:47.507224000 0.057760s info: Automatically using cache size of 3963 MB
+2017-11-02T13:48:47.507621000 0.058157s notice: Listening for intracluster connections on port 29015
+2017-11-02T13:48:47.553311000 0.103847s notice: Listening for client driver connections on port 28015
+2017-11-02T13:48:47.553444000 0.103979s notice: Listening for administrative HTTP connections on port 8080
+2017-11-02T13:48:47.553447000 0.103982s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2017-11-02T13:48:47.553448000 0.103983s notice: Listening on driver addresses: 127.0.0.1, ::1
+2017-11-02T13:48:47.553562000 0.104098s notice: Listening on http addresses: 127.0.0.1, ::1
+2017-11-02T13:48:47.553565000 0.104100s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2017-11-02T13:48:47.553567000 0.104102s notice: Server ready, "chriss_mbp_lan_oej" 840eed4b-9763-47aa-8497-ee8c883f5180
+2017-11-02T13:48:48.930556000 1.481126s info: Table fa034fe6-7a8c-4fbe-94ca-65be4914de0f: Starting a new Raft election for term 3.
+2017-11-02T13:48:48.937846000 1.488415s info: Table 1f6dedf1-d5ae-4f3a-a3b8-6a302eb044ef: Starting a new Raft election for term 3.
+2017-11-02T13:48:48.946945000 1.497515s info: Table ab1cf3ae-6d22-4180-88d2-fc388c0d1630: Starting a new Raft election for term 3.
+2017-11-02T13:48:48.951973000 1.502543s info: Table fa034fe6-7a8c-4fbe-94ca-65be4914de0f: This server is Raft leader for term 3. Latest log index is 6.
+2017-11-02T13:48:48.965933000 1.516503s info: Table 1f6dedf1-d5ae-4f3a-a3b8-6a302eb044ef: This server is Raft leader for term 3. Latest log index is 6.
+2017-11-02T13:48:48.966003000 1.516573s info: Table ab1cf3ae-6d22-4180-88d2-fc388c0d1630: This server is Raft leader for term 3. Latest log index is 8.
+2017-11-03T08:57:48.204025000 14300.577106s notice: Server got SIGINT from pid 886, uid 501; shutting down...
+2017-11-03T08:57:48.204297000 14300.577373s notice: Shutting down client connections...
+2017-11-03T08:57:48.208662000 14300.581737s notice: All client connections closed.
+2017-11-03T08:57:48.208676000 14300.581751s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2017-11-03T08:57:48.222914000 14300.595990s notice: Storage engine shut down.

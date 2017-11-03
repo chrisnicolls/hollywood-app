@@ -1,3 +1,7 @@
 module.exports = {
-  dbname: "hollywood"
+  db: {
+    name: "hollywood",
+    host: "localhost",
+    port: "28015"
+  }
 };
